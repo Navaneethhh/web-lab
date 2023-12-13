@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+    function validate()
+    {
+        var name=document.forms["regform"]["name"];
+        var email=document.forms["regform"]["email"];
+        var phone=document.forms["regform"]["telephone"];
+        var what=document.forms["regform"]["subject"];
+        var password=document.forms["regform"]["password"];
+        var address=document.forms["regform"]["address"];
+        if(name.value=="")
+        {
+            window.alert("please enter your name");
+            name.focus();
+            return false;
+        }
+        if(address.value=="")
+        {
+            window.alert("please enter your address");
+        address.focus();
+        return false();
+        }
+
+        }        
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
